@@ -1,0 +1,31 @@
+Name,Path,GroupScope,GroupCategory,Description,NestedMemberOf
+SG_Role_AllStaff,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"All Staff Employees (Non-Faculty)",
+SG_Role_AllFaculty,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"All Faculty Employees (Teaching Staff)",
+SG_Role_AllStudents,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"All Currently Enrolled Students",
+SG_Role_Students_Undergrad,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Undergraduate Students",SG_Role_AllStudents
+SG_Role_Students_Graduate,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Graduate Students",SG_Role_AllStudents
+SG_Dept_IT,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"IT Department Staff",SG_Role_AllStaff
+SG_Dept_HR,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Human Resources Department Staff",SG_Role_AllStaff
+SG_Dept_Finance,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Finance Department Staff",SG_Role_AllStaff
+SG_Dept_Facilities,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Facilities Department Staff",SG_Role_AllStaff
+SG_Dept_Administration,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Administration Department Staff",SG_Role_AllStaff
+SG_Dept_Admissions,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Admissions Department Staff",SG_Role_AllStaff
+SG_Dept_Faculty_Sciences,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Faculty in School of Sciences",SG_Role_AllFaculty
+SG_Dept_Faculty_Arts,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Faculty in School of Arts",SG_Role_AllFaculty
+SG_Dept_Faculty_Technology,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Faculty in School of Technology",SG_Role_AllFaculty
+SG_Dept_Faculty_Business,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Faculty in School of Business",SG_Role_AllFaculty
+SG_Dept_Faculty_Health,"OU=Departmental,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Faculty in School of Health",SG_Role_AllFaculty
+SG_Admin_Tier1_HelpDesk,"OU=Tier1_HelpDesk,OU=AdminGroups,OU=_ServiceManagement,DC=sharpe,DC=com",Global,Security,"Tier 1 Help Desk Staff Group (for delegation)",
+SG_Admin_Tier2_ServerAdmins,"OU=Tier2_ServerAdmins,OU=AdminGroups,OU=_ServiceManagement,DC=sharpe,DC=com",Global,Security,"Tier 2 Server Admins Group (for delegation)",
+SG_Admin_Tier3_DomainAdminsCustom,"OU=Tier3_DomainAdmins,OU=AdminGroups,OU=_ServiceManagement,DC=sharpe,DC=com",Global,Security,"Custom Group for Delegated Domain Admin Tasks (Avoid using Builtin Domain Admins directly)",
+SG_Role_HelpDeskStaff,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Role group for all Help Desk personnel",
+SG_Role_ServerAdmins,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Role group for all Server Admins",
+SG_Admin_Tier1_DelegationTarget,"OU=Tier1_HelpDesk,OU=AdminGroups,OU=_ServiceManagement,DC=sharpe,DC=com",DomainLocal,Security,"Group granted specific delegated rights (e.g., Password Reset on Student OU)",SG_Admin_Tier1_HelpDesk
+SG_Resource_FS_Finance_RW,"OU=ResourceAccess,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",DomainLocal,Security,"Grants Read/Write access to Finance File Share",
+SG_Resource_FS_StudentData_RO,"OU=ResourceAccess,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",DomainLocal,Security,"Grants Read Only access to Student Data Share",
+SG_Resource_Printer_LibraryColor,"OU=ResourceAccess,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Users allowed to print to Library Color printer",
+SG_Course_CS101_Fall2025,"OU=CourseAccess,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Students enrolled in CS101 Fall 2025",SG_Role_AllStudents
+SG_Course_BIO205_Fall2025,"OU=CourseAccess,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Students enrolled in BIO205 Fall 2025",SG_Role_AllStudents
+SG_NestingTest_Level1,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Top level group for nesting test",
+SG_NestingTest_Level2,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Mid level group for nesting test",SG_NestingTest_Level1
+SG_NestingTest_Level3,"OU=RoleBased,OU=SecurityGroups,OU=Groups,OU=_CampusAccounts,DC=sharpe,DC=com",Global,Security,"Bottom level group for nesting test",SG_NestingTest_Level2
