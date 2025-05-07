@@ -1,0 +1,34 @@
+### Sample Data: active-directory/data/computers.csv
+
+| Name                 | TargetOUPath                                                                          | Description                                           |
+| :------------------- | :------------------------------------------------------------------------------------ | :---------------------------------------------------- |
+| Sharpe-DC1           | OU=Domain Controllers,DC=sharpe,DC=com                                                | Primary Domain Controller (Existing)                  |
+| Sharpe-DC2           | OU=Domain Controllers,DC=sharpe,DC=com                                                | Secondary Domain Controller                           |
+| Sharpe-FS01          | OU=FileServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                          | Primary File Server - Staff/Faculty                   |
+| Sharpe-FS02          | OU=FileServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                          | Student File Server                                   |
+| Sharpe-WEB01         | OU=WebServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                           | Main Campus Web Server (www.sharpe.com)               |
+| Sharpe-WEB-Intra01   | OU=WebServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                           | Intranet Web Server                                   |
+| Sharpe-SQL01         | OU=DatabaseServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                      | Primary SQL Database Server                           |
+| Sharpe-SQL-SIS       | OU=DatabaseServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                      | Student Information System DB Server                  |
+| Sharpe-APP-LMS       | OU=ApplicationServers,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                   | Learning Management System App Server                 |
+| Sharpe-DHCP01        | OU=Infrastructure,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                       | Primary DHCP Server                                   |
+| Sharpe-DNS01         | OU=Infrastructure,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                       | Primary Internal DNS Server                           |
+| SYD-IT-WKS001        | OU=Workstations_Staff,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                 | Sydney Campus, IT Dept Workstation 001                |
+| SYD-HR-WKS005        | OU=Workstations_Staff,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                 | Sydney Campus, HR Dept Workstation 005                |
+| HFX-FIN-WKS012       | OU=Workstations_Staff,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                 | Halifax Campus, Finance Workstation 012               |
+| TRU-ADM-WKS003       | OU=Workstations_Staff,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                 | Truro Campus, Admin Workstation 003                   |
+| SYD-SCI-FACWKS01     | OU=Workstations_Faculty,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com               | Sydney, Science Faculty Workstation (K. Janeway)      |
+| HFX-ART-FACWKS03     | OU=Workstations_Faculty,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com               | Halifax, Arts Faculty Workstation (E. Dax)            |
+| TRU-TECH-FACLP01     | OU=Workstations_Faculty,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com               | Truro, Tech Faculty Laptop (W. Riker)                 |
+| SYD-LABGEN-A101-PC01 | OU=Labs_General,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                       | Sydney Campus, General Lab A101, PC01                 |
+| SYD-LABGEN-A101-PC02 | OU=Labs_General,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                       | Sydney Campus, General Lab A101, PC02                 |
+| HFX-LABTECH-B205-PC01| OU=Labs_Technology,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                    | Halifax Campus, Tech Lab B205, PC01                   |
+| HFX-LABTECH-B205-PC02| OU=Labs_Technology,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                    | Halifax Campus, Tech Lab B205, PC02                   |
+| TRU-LABHLTH-C300-PC01| OU=Labs_HealthSciences,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                | Truro Campus, Health Sci Lab C300, PC01               |
+| TRU-LABHLTH-C300-PC02| OU=Labs_HealthSciences,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                | Truro Campus, Health Sci Lab C300, PC02               |
+| SYD-LIB-KIOSK01      | OU=Kiosks,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                             | Sydney Campus, Library Info Kiosk 01                  |
+| HFX-CAF-KIOSK01      | OU=Kiosks,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                             | Halifax Campus, Cafeteria Kiosk 01                    |
+| TRU-REG-KIOSK01      | OU=Kiosks,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                             | Truro Campus, Registrar Kiosk 01                      |
+| SYD-FACIL-WKS01      | OU=Workstations_Staff,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com                 | Sydney Campus, Facilities Dept Workstation 01         |
+| HFX-BUS-FACWKS02     | OU=Workstations_Faculty,OU=Computers,OU=_CampusResources,DC=sharpe,DC=com               | Halifax, Business Faculty Workstation (M. SonOfUrthog)|
+| Sharpe-PRINT01       | OU=Infrastructure,OU=Servers,OU=_CampusResources,DC=sharpe,DC=com                       | Primary Print Server                                  |
