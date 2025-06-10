@@ -1,5 +1,5 @@
 FirstName,LastName,SamAccountName,Description,Manager,TargetOUPath
-Jean-Luc,Picard,jpicard,"President","TODO","OU=Administration,OU=Staff,OU=Users,OU=_CampusAccounts,DC=sharpe,DC=com"
+Jean-Luc,Picard,jpicard,"President","kjaneway","OU=Administration,OU=Staff,OU=Users,OU=_CampusAccounts,DC=sharpe,DC=com"
 William,Adama,wadama,"VP Operations","jpicard","OU=Administration,OU=Staff,OU=Users,OU=_CampusAccounts,DC=sharpe,DC=com"
 Laura,Roslin,lroslin,"Director of Admissions","wadama","OU=Admissions,OU=Staff,OU=Users,OU=_CampusAccounts,DC=sharpe,DC=com"
 Saul,Tigh,stigh,"Facilities Manager","wadama","OU=Facilities,OU=Staff,OU=Users,OU=_CampusAccounts,DC=sharpe,DC=com"
